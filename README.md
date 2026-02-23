@@ -11,6 +11,8 @@ To design and simulate an Integrator circuit using μA741 in Proteus Design Suit
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
+<img width="1309" height="581" alt="Screenshot 2026-02-23 094200" src="https://github.com/user-attachments/assets/e6c8affd-f880-47ab-b8b9-73adce2ed3af" />
+
 ## Connection Details:
 •	Input signal → Resistor (R) → Inverting terminal (Pin 2)
 •	Feedback capacitor (Cf) → Between Output (Pin 6) and Pin 2
@@ -35,8 +37,12 @@ For Sine Wave Input:
 6.	Run simulation.
 7.	Observe input and output waveforms on CRO.
 ## Tabulation
+<img width="751" height="290" alt="Screenshot 2026-02-23 094226" src="https://github.com/user-attachments/assets/2d8d391c-b9c8-449b-af0e-8f1236c2ca22" />
+
 S.No	           Input Signal	 Frequency	      Expected Output	               Practical Observation
 ## Waveforms
+<img width="1612" height="1030" alt="Screenshot 2026-02-23 094242" src="https://github.com/user-attachments/assets/773a122c-4d3f-4307-b239-0abd67255448" />
+
 ## Result
 The Integrator circuit using μA741 Op-Amp was successfully designed and simulated in Proteus.
 The output waveform is proportional to the integral of the input signal.
@@ -47,7 +53,12 @@ The circuit behaves as an integrator.
 •	Used in waveform generation and analog computation.
 ## Viva Questions
 1.	What is an integrator circuit?
+   A circuit that produces output proportional to the integral of input voltage.
 2.	Write the output equation of integrator.
+   Vout​=−RC1​∫Vin​dt
 3.	Why does output lag input?
+   Because integration of sine gives negative cosine, which lags by 90°.
 4.	What happens at very low frequency?
+   Output amplitude becomes very large and may saturate.
 5.	What is practical integrator?
+    An integrator with an additional resistor in parallel with the capacitor to prevent saturation and improve stability.
